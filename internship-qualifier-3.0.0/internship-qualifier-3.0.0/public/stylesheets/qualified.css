@@ -1,0 +1,46 @@
+div.form-group input {
+  color: #666666;
+  font-size: 20px;
+  margin-bottom: 15px;
+  width: 100px;
+}
+
+div.main-container p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+table.students {
+  border: 5px solid #d3d3d3;
+  border-collapse: collapse;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+td.students {
+  border: 1.5px solid #d3d3d3;
+  padding: 12px 5px;
+}
+
+th.name-header {
+  width: 45%;
+}
+
+th.partial-gpa-header {
+  min-width: 160px;
+  width: 160px;
+}
+
+th.students {
+  background-color: #d3d3d3;
+  font-size: 24px;
+  padding: 10px 0px;
+}
+
+.partial-gpa {
+  min-width: 160px;
+  width: 160px;
+}

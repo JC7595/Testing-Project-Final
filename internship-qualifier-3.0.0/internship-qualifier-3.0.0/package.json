@@ -1,0 +1,27 @@
+{
+  "name": "internship-qualifier",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext js .",
+    "start": "nodemon ./bin/www",
+    "test": "mocha --recursive",
+    "travis": "npm run lint && npm run test"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.12.5",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.25.0",
+    "mocha": "^8.3.2"
+  }
+}

@@ -1,0 +1,14 @@
+div.footer {
+  border-top: 1px solid #d3d3d3;
+  bottom: 0;
+  height: 120px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+div.footer p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: center;
+}
